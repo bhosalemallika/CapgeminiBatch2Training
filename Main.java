@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-       // @SuppressWarnings("serial")
-        class Age extends Exception {
+          class Age extends Exception {
             public Age(){
                 super("The Age you've entered is not valid");
             }
